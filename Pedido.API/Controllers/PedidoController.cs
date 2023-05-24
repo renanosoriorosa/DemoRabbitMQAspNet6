@@ -46,7 +46,7 @@ namespace Pedido.API.Controllers
             }
             catch (Exception e)
             {
-                return BadRequest(e);
+                return BadRequest($"Falha ao enviar pedido pra fila, tente mais tarde. Erro: {e}");
             }
         }
     }
