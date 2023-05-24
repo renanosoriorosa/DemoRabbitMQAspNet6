@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "3J2MuXtFQJpT7m1jp/4N+0h/dhVZvdvzTFUl2XHxisb67dRj6r4514Uqsnr+WLlf3aslzBN7HwlHyISWXkZY5g==",
+  "dgSpecHash": "0Gmqlp7IX+QBGV9de/9FAU51vkyyG1wPhDXNCC6qxmsUGcXlvoST/uWW6mlC5PosHPZX4TUfgzv4FQ/PFgonpw==",
   "success": true,
   "projectFilePath": "C:\\Users\\Renan\\Documents\\Projetos\\Docker\\ComunicacaoRabbitMQ\\DemoRabbitMQ\\Core\\Core.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Renan\\.nuget\\packages\\rabbitmq.client\\6.5.0\\rabbitmq.client.6.5.0.nupkg.sha512",
+    "C:\\Users\\Renan\\.nuget\\packages\\system.memory\\4.5.5\\system.memory.4.5.5.nupkg.sha512",
+    "C:\\Users\\Renan\\.nuget\\packages\\system.threading.channels\\7.0.0\\system.threading.channels.7.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

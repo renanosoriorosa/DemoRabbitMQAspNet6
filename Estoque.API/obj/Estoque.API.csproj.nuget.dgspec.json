@@ -33,7 +33,11 @@
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\Renan\\Documents\\Projetos\\Docker\\ComunicacaoRabbitMQ\\DemoRabbitMQ\\Models\\Models.csproj": {
+                "projectPath": "C:\\Users\\Renan\\Documents\\Projetos\\Docker\\ComunicacaoRabbitMQ\\DemoRabbitMQ\\Models\\Models.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -45,6 +49,12 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "RabbitMQ.Client": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

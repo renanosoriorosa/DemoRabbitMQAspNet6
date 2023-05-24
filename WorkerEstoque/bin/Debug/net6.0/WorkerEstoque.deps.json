@@ -10,8 +10,7 @@
         "dependencies": {
           "Core": "1.0.0",
           "Microsoft.Extensions.Hosting": "6.0.1",
-          "Models": "1.0.0",
-          "RabbitMQ.Client": "6.5.0"
+          "Models": "1.0.0"
         },
         "runtime": {
           "WorkerEstoque.dll": {}
@@ -416,6 +415,10 @@
         }
       },
       "Core/1.0.0": {
+        "dependencies": {
+          "Models": "1.0.0",
+          "RabbitMQ.Client": "6.5.0"
+        },
         "runtime": {
           "Core.dll": {}
         }

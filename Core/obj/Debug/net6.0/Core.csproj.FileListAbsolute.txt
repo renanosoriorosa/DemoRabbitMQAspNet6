@@ -1,11 +1,14 @@
 C:\Users\Renan\Documents\Projetos\Docker\ComunicacaoRabbitMQ\DemoRabbitMQ\Core\bin\Debug\net6.0\Core.deps.json
 C:\Users\Renan\Documents\Projetos\Docker\ComunicacaoRabbitMQ\DemoRabbitMQ\Core\bin\Debug\net6.0\Core.dll
 C:\Users\Renan\Documents\Projetos\Docker\ComunicacaoRabbitMQ\DemoRabbitMQ\Core\bin\Debug\net6.0\Core.pdb
+C:\Users\Renan\Documents\Projetos\Docker\ComunicacaoRabbitMQ\DemoRabbitMQ\Core\bin\Debug\net6.0\Models.dll
+C:\Users\Renan\Documents\Projetos\Docker\ComunicacaoRabbitMQ\DemoRabbitMQ\Core\bin\Debug\net6.0\Models.pdb
 C:\Users\Renan\Documents\Projetos\Docker\ComunicacaoRabbitMQ\DemoRabbitMQ\Core\obj\Debug\net6.0\Core.csproj.AssemblyReference.cache
 C:\Users\Renan\Documents\Projetos\Docker\ComunicacaoRabbitMQ\DemoRabbitMQ\Core\obj\Debug\net6.0\Core.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Renan\Documents\Projetos\Docker\ComunicacaoRabbitMQ\DemoRabbitMQ\Core\obj\Debug\net6.0\Core.AssemblyInfoInputs.cache
 C:\Users\Renan\Documents\Projetos\Docker\ComunicacaoRabbitMQ\DemoRabbitMQ\Core\obj\Debug\net6.0\Core.AssemblyInfo.cs
 C:\Users\Renan\Documents\Projetos\Docker\ComunicacaoRabbitMQ\DemoRabbitMQ\Core\obj\Debug\net6.0\Core.csproj.CoreCompileInputs.cache
+C:\Users\Renan\Documents\Projetos\Docker\ComunicacaoRabbitMQ\DemoRabbitMQ\Core\obj\Debug\net6.0\Core.csproj.CopyComplete
 C:\Users\Renan\Documents\Projetos\Docker\ComunicacaoRabbitMQ\DemoRabbitMQ\Core\obj\Debug\net6.0\Core.dll
 C:\Users\Renan\Documents\Projetos\Docker\ComunicacaoRabbitMQ\DemoRabbitMQ\Core\obj\Debug\net6.0\refint\Core.dll
 C:\Users\Renan\Documents\Projetos\Docker\ComunicacaoRabbitMQ\DemoRabbitMQ\Core\obj\Debug\net6.0\Core.pdb

@@ -86,6 +86,10 @@
         }
       },
       "Core/1.0.0": {
+        "dependencies": {
+          "Models": "1.0.0",
+          "RabbitMQ.Client": "6.5.0"
+        },
         "runtime": {
           "Core.dll": {}
         }

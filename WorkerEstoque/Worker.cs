@@ -1,17 +1,18 @@
-using Models.Models;
-using RabbitMQ.Client;
-using RabbitMQ.Client.Events;
-using System.Text;
+using Core.Services;
 
 namespace WorkerEstoque
 {
     public class Worker : BackgroundService
     {
         private readonly ILogger<Worker> _logger;
+        public IServiceProvider services { get; }
+        public IConfiguration configuration { get; set; }
 
-        public Worker(ILogger<Worker> logger)
+        public Worker(ILogger<Worker> logger, IServiceProvider services, IConfiguration configuration)
         {
             _logger = logger;
+            this.services = services;
+            this.configuration = configuration;
         }
 
         protected override async Task ExecuteAsync(CancellationToken stoppingToken)
@@ -20,32 +21,12 @@ namespace WorkerEstoque
             {
                 try
                 {
-                    var factory = new ConnectionFactory { HostName = "localhost" };
-                    using var connection = factory.CreateConnection();
-                    using var channel = connection.CreateModel();
-
-                    channel.QueueDeclare(queue: "pedidos",
-                                         durable: false,
-                                         exclusive: false,
-                                         autoDelete: false,
-                                         arguments: null);
-
-                    //Console.WriteLine(" [*] Waiting for messages.");
-
-                    var consumer = new EventingBasicConsumer(channel);
-                    consumer.Received += (model, ea) =>
+                    using (var scope = services.CreateScope())
                     {
-                        var body = ea.Body.ToArray();
-                        var message = Encoding.UTF8.GetString(body);
+                        var estoqueService = scope.ServiceProvider.GetRequiredService<EstoqueService>();
 
-                        var pedido = System.Text.Json.JsonSerializer.Deserialize<PedidoViewModel>(message);
-
-                        Console.WriteLine($" [x] Received {pedido.Id},{pedido.Codigo}, {pedido.Quantidade} ");
-                    };
-
-                    channel.BasicConsume(queue: "pedidos",
-                                         autoAck: true,
-                                         consumer: consumer);
+                        estoqueService.ProcessaPedido();
+                    }
                 }
                 catch (Exception e)
                 {

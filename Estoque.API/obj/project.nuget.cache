@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "8Rq5cBkU2nGCw80iffzlS56ppys6Zku3hOBWNpvwUa3yVMHU0RsZbw79gJwvj4n7BlPKK0e1L1lYXCqQDFmOoA==",
+  "dgSpecHash": "+eLGsbHUmqViA42FB7RDZ4aY3FumHYbUZW5wF3PG1qgbM5504xfoh2iucvsoM2Zcmm1yqtC/nS+n7zSgHHdaLw==",
   "success": true,
   "projectFilePath": "C:\\Users\\Renan\\Documents\\Projetos\\Docker\\ComunicacaoRabbitMQ\\DemoRabbitMQ\\Estoque.API\\Estoque.API.csproj",
   "expectedPackageFiles": [

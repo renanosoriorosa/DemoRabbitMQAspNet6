@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "AUY0mzVXVHw77eyftd/5cJ+5/u/D7qgHJX9TITS4YO+1Z13ejSo7O5+ykvWpXMMaVLFtX452CKoqwLEBfbqOFA==",
+  "dgSpecHash": "U3zh0sng7WQzbceG4O41y3A2PIUJ+elfjsxKkXpDYRD9dia6KGogSR2MYJ7+KBSCPS5GlyPhyTZb66/1/PnUyQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Renan\\Documents\\Projetos\\Docker\\ComunicacaoRabbitMQ\\DemoRabbitMQ\\WorkerEstoque\\WorkerEstoque.csproj",
   "expectedPackageFiles": [

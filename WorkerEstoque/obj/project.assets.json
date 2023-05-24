@@ -650,6 +650,10 @@
       "Core/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Models": "1.0.0",
+          "RabbitMQ.Client": "6.5.0"
+        },
         "compile": {
           "bin/placeholder/Core.dll": {}
         },
@@ -1481,8 +1485,7 @@
     "net6.0": [
       "Core >= 1.0.0",
       "Microsoft.Extensions.Hosting >= 6.0.1",
-      "Models >= 1.0.0",
-      "RabbitMQ.Client >= 6.5.0"
+      "Models >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -1542,10 +1545,6 @@
           "Microsoft.Extensions.Hosting": {
             "target": "Package",
             "version": "[6.0.1, )"
-          },
-          "RabbitMQ.Client": {
-            "target": "Package",
-            "version": "[6.5.0, )"
           }
         },
         "imports": [

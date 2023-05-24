@@ -6,9 +6,11 @@ C:\Users\Renan\Documents\Projetos\Docker\ComunicacaoRabbitMQ\DemoRabbitMQ\Estoqu
 C:\Users\Renan\Documents\Projetos\Docker\ComunicacaoRabbitMQ\DemoRabbitMQ\Estoque.API\bin\Debug\net6.0\Estoque.API.dll
 C:\Users\Renan\Documents\Projetos\Docker\ComunicacaoRabbitMQ\DemoRabbitMQ\Estoque.API\bin\Debug\net6.0\Estoque.API.pdb
 C:\Users\Renan\Documents\Projetos\Docker\ComunicacaoRabbitMQ\DemoRabbitMQ\Estoque.API\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\Renan\Documents\Projetos\Docker\ComunicacaoRabbitMQ\DemoRabbitMQ\Estoque.API\bin\Debug\net6.0\RabbitMQ.Client.dll
 C:\Users\Renan\Documents\Projetos\Docker\ComunicacaoRabbitMQ\DemoRabbitMQ\Estoque.API\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\Users\Renan\Documents\Projetos\Docker\ComunicacaoRabbitMQ\DemoRabbitMQ\Estoque.API\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\Renan\Documents\Projetos\Docker\ComunicacaoRabbitMQ\DemoRabbitMQ\Estoque.API\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Renan\Documents\Projetos\Docker\ComunicacaoRabbitMQ\DemoRabbitMQ\Estoque.API\bin\Debug\net6.0\System.Threading.Channels.dll
 C:\Users\Renan\Documents\Projetos\Docker\ComunicacaoRabbitMQ\DemoRabbitMQ\Estoque.API\bin\Debug\net6.0\Core.dll
 C:\Users\Renan\Documents\Projetos\Docker\ComunicacaoRabbitMQ\DemoRabbitMQ\Estoque.API\bin\Debug\net6.0\Models.dll
 C:\Users\Renan\Documents\Projetos\Docker\ComunicacaoRabbitMQ\DemoRabbitMQ\Estoque.API\bin\Debug\net6.0\Core.pdb
@@ -29,5 +31,3 @@ C:\Users\Renan\Documents\Projetos\Docker\ComunicacaoRabbitMQ\DemoRabbitMQ\Estoqu
 C:\Users\Renan\Documents\Projetos\Docker\ComunicacaoRabbitMQ\DemoRabbitMQ\Estoque.API\obj\Debug\net6.0\Estoque.API.pdb
 C:\Users\Renan\Documents\Projetos\Docker\ComunicacaoRabbitMQ\DemoRabbitMQ\Estoque.API\obj\Debug\net6.0\Estoque.API.genruntimeconfig.cache
 C:\Users\Renan\Documents\Projetos\Docker\ComunicacaoRabbitMQ\DemoRabbitMQ\Estoque.API\obj\Debug\net6.0\ref\Estoque.API.dll
-C:\Users\Renan\Documents\Projetos\Docker\ComunicacaoRabbitMQ\DemoRabbitMQ\Estoque.API\bin\Debug\net6.0\RabbitMQ.Client.dll
-C:\Users\Renan\Documents\Projetos\Docker\ComunicacaoRabbitMQ\DemoRabbitMQ\Estoque.API\bin\Debug\net6.0\System.Threading.Channels.dll

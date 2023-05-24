@@ -134,6 +134,10 @@
       "Core/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Models": "1.0.0",
+          "RabbitMQ.Client": "6.5.0"
+        },
         "compile": {
           "bin/placeholder/Core.dll": {}
         },
